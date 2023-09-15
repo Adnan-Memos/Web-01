@@ -1,5 +1,6 @@
 .r-container{
     overflow: hidden;
+    position: relative;
 }
 
 .r-head{
@@ -37,4 +38,29 @@
 
 .swiper-horizontal{
     overflow: visible;
+}
+
+.r-button {
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 0;
+}
+
+.r-button>button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    border: none;
+    color: blue;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.r-button>:nth-child(1){
+    background-color: #EEEEFF;
+}
+
+.r-button>:nth-child(2){
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
 }
