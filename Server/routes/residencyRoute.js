@@ -1,6 +1,5 @@
 import express from "express";
 import { createResidency, getAllResidencies, getResidency } from "../controllers/resdCntrl.js";
-import { get } from "mongoose";
 const router = express.Router();
 
 router.post("/create", createResidency);
