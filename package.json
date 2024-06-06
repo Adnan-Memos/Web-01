@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "lodash": "^4.17.21",
+    "react-query": "^3.39.3",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.5"
+  }
+}
