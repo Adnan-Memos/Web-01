@@ -8,13 +8,9 @@
     border-radius: 10px;
     max-width: max-content;
     margin: auto;
-    transition: all 300ms ease-in-out;
-}
-
-.r-card>img{
-    width: 15rem;
-    height: 10rem;
-    max-width: 15rem;
+    transition: all 300ms ease-in;
+    position: relative;
+    z-index: 0;
 }
 
 .r-card>svg{
@@ -22,6 +18,12 @@
     top: 25px;
     right: 30px;
     z-index: 1;
+}
+
+.r-card>img{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 10px;
 }
 
 .r-card>:nth-child(3){
@@ -35,6 +37,7 @@
 
 .r-card>:nth-child(5){
     font-size: 0.7rem;
+    width: 15rem;
 }
 
 .r-card:hover{
