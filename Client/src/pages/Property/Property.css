@@ -1,6 +1,7 @@
 .property-container {
   gap: 2rem;
   position: relative;
+  display: flex;
 }
 
 .property-container .like {
@@ -10,12 +11,12 @@
   cursor: pointer;
 }
 
-.property-container>img{
-    align-self: center;
-    max-height: 35rem;
-    width: 100%;
-    border-radius: 1rem;
-    object-fit: cover;
+.property-container > img {
+  align-self: center;
+  max-height: 35rem;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
 .property-details {
@@ -24,13 +25,31 @@
   justify-content: space-between;
 }
 
-.property-details>div {
+.property-details > div {
   flex: 1;
   gap: 1.5rem;
 }
 
-.property-details .left .head{
+.property-details .left .head {
   justify-content: space-between;
   width: 100%;
-  
+}
+
+.facilities {
+  gap: 0.5rem;
+  font-style: 0.9rem;
+  padding: 0.5rem;
+}
+
+.facility {
+  gap: 0.5rem;
+}
+
+.property-details .button{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.property-details .button:hover {
+  transform: scale(1.05);
 }

@@ -7,6 +7,9 @@ import { PuffLoader } from "react-spinners";
 import { AiFillHeart } from "react-icons/ai";
 import "./Property.css";
 import { FaShower } from "react-icons/fa";
+import { AiTwotoneCar } from "react-icons/ai";
+import { MdLocationPin, MdMeetingRoom } from "react-icons/md";
+import Map from "../../components/Map/Map";
 
 const Property = () => {
   const { pathname } = useLocation();
@@ -44,33 +47,62 @@ const Property = () => {
         {/* image */}
         <img src={data?.image} alt="home image" />
 
-        <div className="flexColCenter property-details">
+        <div className="flexCenter property-details">
+          {/* left */}
           <div className="flexColStart left">
+            {/* Head */}
             <div className="flexStart head">
               <span className="primaryText">{data?.title}</span>
-              <span className="orangeText" style={{ fontSize: '"1.5rem'}}>
+
+              <span className="orangeText" style={{ fontSize: '"1.5rem' }}>
                 $ {data?.price}
               </span>
             </div>
 
-
             <div className="flexStart facilities">
+              {/* bathrooms */}
               <div className="flexStart facility">
-                <FaShower size={20} color="#1F3E72"/>
+                <FaShower size={20} color="#1F3E72" />
                 <span>{data?.facilities?.bathrooms} Bathrooms</span>
               </div>
-              <div className="flexStart facility"></div>
-              <div className="flexStart facility"></div>
+              <div className="flexStart facility">
+                <AiTwotoneCar size={20} color="#1F3E72" />
+                <span>{data?.facilities?.parkings} Parking</span>
+              </div>
+              <div className="flexStart facility">
+                <MdMeetingRoom size={20} color="#1F3E72" />
+                <span>{data?.facilities?.bedrooms} Room/s</span>
+              </div>
             </div>
+
+            {/* description */}
+            <span className="secondaryText" style={{ textAlign: "justify" }}>
+              {data?.description}
+            </span>
+
+            {/* address */}
+
+            <div className="flexStart" style={{ gap: "1rem" }}>
+              <MdLocationPin size={25} />
+              <span className="secondaryText">
+                {data?.address}
+                {data?.city}
+                {data?.country}
+              </span>
+            </div>
+
+            {/* Booking Button */}
+            <button className="button">Book your visit</button>
           </div>
 
-
-
-
-          <div className="flexColStart right">
-            this is  the right side
+          {/* right side */}
+          <div className="map">
+            <Map
+              address={data?.address}
+              city={data?.city}
+              country={data?.country}
+            />
           </div>
-            
         </div>
       </div>
     </div>
