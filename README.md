@@ -1,13 +1,16 @@
 # Real Estate Website (Pr/1)
 
-## Description
-Full Stack Responsive Real Estate Website, Personal Project
+## Overview  
+The *Real Estate Website* is a full-stack responsive web application designed to provide an intuitive and modern platform for browsing real estate properties. The project incorporates advanced UI/UX principles and several dynamic features to enhance user interaction and functionality.  
 
-## Completetion Date
-Ongoing 
+## Completion Date  
+December 2024  
 
-## Introduction 
-A Full Stack Real Estate webiste designed with React hooks, React router, modern CSS, framer motion, mongodb, cloudinary,  auth0, mantine UI and many more. It has several pages and cards with a great UI / UX Design.
+## Tools and Technologies  
+React, React Hooks, React Router, Modern CSS, Framer Motion, MongoDB, Cloudinary, Auth0, Mantine UI  
 
-## Contributors
-Mohammed Adnan Siddiqui 
+## Keywords  
+Full Stack Development, Real Estate Platform, Responsive Design, Modern CSS, Authentication, MongoDB, Cloudinary, React Router, Framer Motion  
+
+## Contributors  
+*Mohammed Adnan Siddiqui*
