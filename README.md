@@ -7,10 +7,10 @@ The *Real Estate Website* is a full-stack responsive web application designed to
 December 2024  
 
 ## Tools and Technologies  
-React, React Hooks, React Router, Modern CSS, Framer Motion, MongoDB, Cloudinary, Auth0, Mantine UI  
+React, React Hooks, React Router, Modern CSS, Framer Motion, MongoDB, Auth0 
 
 ## Keywords  
-Full Stack Development, Real Estate Platform, Responsive Design, Modern CSS, Authentication, MongoDB, Cloudinary, React Router, Framer Motion  
+Full Stack Development, Real Estate Platform, Responsive Design, Modern CSS, Authentication, MongoDB, React Router  
 
 ## Contributors  
 *Mohammed Adnan Siddiqui*
